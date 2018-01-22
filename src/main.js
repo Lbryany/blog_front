@@ -3,7 +3,9 @@ import App from './App.vue';
 import routers from './router/router.js';
 import iView from 'iview';
 import 'iview/dist/styles/iview.css';
+import VueResource from 'vue-resource';
 
+Vue.use(VueResource);
 Vue.use(iView);
 
 // const RouterConfig = {
