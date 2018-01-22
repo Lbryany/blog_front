@@ -1,5 +1,6 @@
 <template>
 <div id="form">
+    <div id="title">Lbryany's Blog</div>
     <Form :model="formItem" :label-width="80">
         <FormItem label="Username">
             <Input v-model="formItem.username" placeholder="Enter Username"></Input>
@@ -9,7 +10,7 @@
             <Input type="password" v-model="formItem.password" placeholder="Enter Password"></Input>
         </FormItem>
     
-        <FormItem label="Switch">
+        <FormItem label="Remember">
             <i-switch v-model="formItem.switch" size="large">
                 <span slot="open">On</span>
                 <span slot="close">Off</span>
@@ -27,8 +28,8 @@
         data () {
             return {
                 formItem: {
-                    username: "lbryany",
-                    switch: true,
+                    // username: "",
+                    switch: false,
                 }
             }
         }
@@ -38,8 +39,14 @@
 <style>
 #form{
     margin-top: 20vh;
-    margin-left: 30vw;
+    margin-left: 38vw;
+    margin-right: auto;
     width: 20vw;
+}
+#title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5vh;
 }
 </style>
 
