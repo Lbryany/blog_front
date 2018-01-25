@@ -8,7 +8,7 @@
 // Vue.component(Button);
 
 export default {
-  
+
 }
 </script>
 

@@ -13,14 +13,14 @@
 </template>
 
 <script>
-import BlogMenu  from "./components/BlogMenu";
-import BlogCrumb from "./components/BlogCrumb";
-import BlogArticle   from "./components/BlogArticle";
+import BlogMenu from './components/BlogMenu'
+import BlogCrumb from './components/BlogCrumb'
+import BlogArticle from './components/BlogArticle'
 
 export default {
-    components: {
-        BlogMenu, BlogCrumb, BlogArticle
-    }
+  components: {
+    BlogMenu, BlogCrumb, BlogArticle
+  }
 }
 </script>
 
